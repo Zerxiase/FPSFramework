@@ -3,8 +3,6 @@ import { Component, BaseComponent } from "@flamework/components";
 import { Workspace, ReplicatedStorage, UserInputService } from "@rbxts/services";
 import { SPRING } from "shared/components/spring";
 
-const mySpring = SPRING.create();
-
 const CurrentCamera = Workspace.CurrentCamera!;
 
 interface WEAPON_INSTANCE extends Model {
